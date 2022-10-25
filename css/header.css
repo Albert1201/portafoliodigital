@@ -1,0 +1,25 @@
+.site__header_info {
+    height: 50px;
+  }
+  
+  .site__header_info .logo__link {
+    height: inherit;
+  }
+  
+  .site__header_info .logo__img {
+    height: inherit;
+  }
+
+  
+
+.site__header {
+  grid-area: header;
+  background-color: var(--light-gray);
+}
+
+.site__header_container {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

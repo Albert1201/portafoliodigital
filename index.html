@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Web de Marlon Martínez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
+    <link rel="stylesheet" href="css/site__contact.css" />
+    
+    <link rel="stylesheet" href="css/helpers.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    
+    <link rel="stylesheet" href="css/site__main.css" />
+    <link rel="stylesheet" href="css/site__hero.css" />
+    <link rel="stylesheet" href="css/site__about.css" />
+    <link rel="stylesheet" href="css/site__skills.css" />
+    <link rel="stylesheet" href="css/site__hobbies.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link
+      rel="stylesheet"
+      href="css/site__education.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="css/site__portfolio.css"
+    />
+
+    <link rel="stylesheet" href="css/site__contact.css" />
+    <link rel="stylesheet" href="css/site__footer.css" />
+
+  </head>
+
+
+  
+  <body>
+    <div class="app">
+      <header class="site__header">
+        <div class="site__header_container">
+          <div class="site__header_info">
+            <!-- <a href="" class="logo__link">
+              <img
+                src="img/resbrand_logo.png"
+                alt=""
+                class="logo__img"
+              />
+            </a> -->
+          </div>
+          
+          <nav class="site__nav">
+            <input id="site__nav_toggle" type="checkbox" />
+            <label class="site__nav_button-container" for="site__nav_toggle">
+              <div class="site__nav_button"></div>
+            </label>
+            <ul class="nav__list">
+              <li class="nav__list_item">
+                <a href="#about" class="nav__list_link">Sobre Mi</a>
+              </li>
+              <li class="nav__list_item">
+                <a href="#skills" class="nav__list_link">Skills</a>
+              </li>
+              <li class="nav__list_item">
+                <a href="#hobbies" class="nav__list_link">Hobbies</a>
+              </li>
+              <li class="nav__list_item">
+                <a href="#education" class="nav__list_link">Formación</a>
+              </li>
+              <li class="nav__list_item">
+                <a href="#portfolio" class="nav__list_link">Experiencia</a>
+              </li>
+              <li class="nav__list_item">
+                <a href="#contact" class="nav__list_link">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="site__main">
+        <section id="hero" class="site__hero">
+          <div class="hero__profile">
+            <img
+              src="img/perfil.webp"
+              alt=""
+              class="hero__profile_img"
+            />
+          </div>
+          <div class="hero__content">
+            <h1 class="hero__title">Marlon Martínez</h1>
+            <p class="hero__description">
+              Soy Diseñador Web & Community Manager en
+              formación para ser un FullStack Developer;.
+            </p>
+            <ul class="hero__social">
+              <li class="hero__social_item">
+                <a
+                  href="https://github.com/Albert1201"
+                  target="_blank"
+                  class="hero__social_link"
+                >
+                  <i class="fa-brands fa-github hero__social_icon"></i>
+                  Github
+                </a>
+              </li>
+
+              <li class="hero__social_item">
+                <a
+                  href="https://www.linkedin.com/in/marlon-rafael-martinez-0374a31b4"
+                  class="hero__social_link"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin hero__social_icon"></i>
+                  Linkedin
+                </a>
+              </li>
+
+              
+              <li class="hero__social_item">
+                <!-- <a
+                  href="https://drive.google.com/file/d/1ZroykMy5mVfYW6Y_Izevi-yjNX3TeiLs/view?usp=sharing"
+                  class="hero__social_link"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-file-lines hero__social_icon"></i>
+                  Descarga mi CV
+                </a> -->
+              </li>
+            </ul>
+          </div>
+        </section>
+        
+        <section id="about" class="site__about">
+          <div class="about__content">
+            <h2 class="about__title section-title">Sobre Mí</h2>
+            <div class="about__description">
+              <p>
+                Soy apacionado de la computadora desde muy joven inicie en el mundo de la informatica
+                desde los 20 años ya tenia una computadora y comenze a aprender, siguiendo tutoriales de 
+                Youtube, despues comenze html basico, luego php y he estado aprendiendo cada dia,
+                con los avances de la informatica nunca dejaremos de hacer algo nuevo.
+                
+              </p>
+
+              <p>
+                A lo largo del tiempo me han surgido increíbles oportunidades
+                para convertirme en un desarrollador frontend. Por ejemplo, en
+                Septiembre de 2021 fuí seleccionado por Oxfam America INC.
+                Para enseñar un curso de diseño y desarrollo de sitios web, 
+                donde aprendimos a crear un sitio real utilizando los lenguajes
+                más demandados del mercado.
+                <span class="featured"
+                  >JavaScript, HTML5, CSS3 y PHP.</span
+                >
+              </p>
+
+              <p>
+                También, en Junio de 2022 comencé a participar en el
+                programa de
+                <span class="featured"
+                  >Oracle ONE Next Education con Alura Latam</span
+                >, donde estoy adquiriendo más experiencia del lado del backend,
+                con Java y profundizado otras habilidades técnicas y blandas que
+                me permitan trabajar en un equipo remoto.
+              </p>
+
+              <p>
+                En conclusión, me considero una persona en constante
+                crecimiento, que busca su primera experiencia laboral en el
+                mundo de la tecnología. Me encanta la naturaleza, la fotografía,
+                la música de diferentes géneros y soy
+                <span class="featured"
+                  >amigable, trabajador, entusiasta y perseverante.</span
+                >
+              </p>
+            </div>
+
+            <!-- <div class="about__sign">
+              <img src="img/firma.png" alt="" />
+            </div>
+          </div> -->
+
+        </section>
+
+        <section id="skills" class="site__skills">
+          <div class="skills__content">
+            <h3 class="skills__title section-title">Skills</h3>
+            <div class="icons__container">
+              <ul class="icons__list">
+
+                <li class="icons__box">
+                  <span class="icon__tag">HTML5</span>
+                  <i class="icon"><i class="fa-brands fa-html5"></i></i>
+                </li>
+
+                <li class="icons__box">
+                  <span class="icon__tag">JavaScript</span>
+                  <i class="icon"><i class="fa-brands fa-js"></i></i>
+                </li>
+
+                <li class="icons__box">
+                  <span class="icon__tag">PHP</span>
+                  <i class="icon"><i class="fa-brands fa-php"></i></i>
+                </li>
+
+                
+
+                
+
+                <li class="icons__box">
+                  <span class="icon__tag">CSS3</span>
+                  <i class="icon"><i class="fa-brands fa-css3"></i></i>
+                </li> 
+
+                <li class="icons__box">
+                  <span class="icon__tag">Wordpress</span>
+                  <i class="icon"><i class="fa-brands fa-wordpress"></i></i>
+                </li> 
+
+                
+
+                <li class="icons__box">
+                  <span class="icon__tag">Linux</span>
+                  <i class="icon"><i class="fa-brands fa-linux"></i></i>
+                </li> 
+
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="hobbies" class="site__hobbies">
+          <div class="hobbies__content">
+            <h3 class="hobbies__title section-title">Hobbies</h3>
+            
+            <div class="icons__container">
+              <ul class="icons__list">
+                <li class="icons__box brown">
+                  <span class="icon__tag">Escuchar música</span>
+                  <i class="icon"><i class="fa-solid fa-music"></i></i>
+                </li>
+                <li class="icons__box brown">
+                  <span class="icon__tag">Gaming</span>
+                  <i class="icon"><i class="fa-solid fa-gamepad"></i></i>
+                </li>
+                <li class="icons__box brown">
+                  <span class="icon__tag">Tomar fotos</span>
+                  <i class="icon"><i class="fa-solid fa-camera"></i></i>
+                </li>
+                <li class="icons__box brown">
+                  <span class="icon__tag">Leer</span>
+                  <i class="icon"><i class="fa-solid fa-book"></i></i>
+                </li>
+                <li class="icons__box brown">
+                  <span class="icon__tag">Dibujar</span>
+                  <i class="icon"><i class="fa-solid fa-pencil"></i></i>
+                </li>
+                <li class="icons__box brown">
+                  <span class="icon__tag">Ver películas</span>
+                  <i class="icon"><i class="fa-solid fa-film"></i></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="site__education">
+          <div class="education__content">
+            <h3 class="education__title section-title">Formación Académica</h3>
+            <div class="education__details">
+              <ul class="education__list">
+                
+
+                
+                <li class="education__list_item">
+                  <div class="education__list_info">
+                    <h4 class="school__course">Técnico en Informática</h4>
+                    <span class="school__course_time"
+                      >2017 - Fundación Slim</span
+                    >
+                  </div>
+                  <div class="education__list_school">
+                    <img
+                      src="img/slim.png"
+                      alt=""
+                      class="school__logo"
+                    />
+                  </div>
+                </li>
+                
+                <li class="education__list_item">
+                  <div class="education__list_info">
+                    <h4 class="school__course">Programa JavaScript</h4>
+                    <span class="school__course_time"
+                      >2020 - Platzi</span
+                    >
+                  </div>
+                  <div class="education__list_school">
+                    <img
+                      src="img/facebook_platzi.jpg"
+                      alt=""
+                      class="school__logo"
+                    />
+                  </div>
+                </li>
+                
+                <li class="education__list_item">
+                  <div class="education__list_info">
+                    <h4 class="school__course">
+                      Fundamentos de Programación
+                    </h4>
+                    <span class="school__course_time">2021 - Udemy</span>
+                  </div>
+                  <div class="education__list_school">
+                    <img
+                      src="img/udemy.png"
+                      alt=""
+                      class="school__logo"
+                    />
+                  </div>
+                </li>
+
+                
+
+                <li class="education__list_item">
+                  <div class="education__list_info">
+                    <h4 class="school__course">Programa Java</h4>
+                    <span class="school__course_time"
+                      >En curso - Oracle ONE & Alura Latam</span
+                    >
+                  </div>
+                  <div class="education__list_school">
+                    <img
+                      src="img/alura_oracle.jpg"
+                      alt=""
+                      class="school__logo"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" class="site__portfolio">
+          <div class="portfolio__content">
+            <h3 class="portfolio__title section-title">
+              Experiencia Profesional
+            </h3>
+            <div class="portfolio__gallery">
+             
+
+              
+
+              <div class="portfolio__box">
+                <a
+                  href="https://github.com/Albert1201/encriptador-text"
+                  target="_blank"
+                  class="portfolio__featured portfolio_3"
+                ></a>
+                <div class="portfolio__featured_content">
+                  <div class="featured__title">
+                    <h3>Alura Encriptador</h3>
+                  </div>
+                  <div class="featured__info">                    
+                    <a
+                      class="featured__link"
+                      href="https://github.com/Albert1201/encriptador-text"
+                      target="_blank"
+                      ><i class="fa-solid fa-code"></i> Repositorio</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio__box">
+                <a
+                  href="https://github.com/Albert1201/ONE-Oracle"
+                  target="_blank"
+                  class="portfolio__featured portfolio_4"
+                ></a>
+                <div class="portfolio__featured_content">
+                  <div class="featured__title">
+                    <h3>Alura Ahorcado</h3>
+                  </div>
+
+                  <div class="featured__info">                    
+                    <a
+                      class="featured__link"
+                      href="https://github.com/Albert1201/ONE-Oracle"
+                      target="_blank"
+                      ><i class="fa-solid fa-code"></i> Repositorio</a>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+
+        <section id="contact" class="site__contact">
+          <div class="contact__content">
+            <h3 class="contact__title section-title">¡Envíame un mensaje!</h3>
+            <div class="contact__form_container">
+              <form class="contact__form" >
+                <div class="contact__form_top">
+
+                  <div class="form__input">
+                    <label for="name" class="contact__label">Nombre</label>
+                    <input
+                      type="text"
+                      class="contact__input"
+                      name="name"
+                      id="name"
+                      data-type="name"
+                      placeholder="Nombre"
+                      required
+                    />
+                    <span class="contact__input_error"
+                      >Este campo no es valido</span
+                    >
+                  </div>
+
+                  <div class="form__input">
+                    <label for="email" class="contact__label">Email</label>
+                    <input
+                      type="email"
+                      class="contact__input"
+                      name="email"
+                      id="email"
+                      data-type="email"
+                      placeholder="Email"
+                      required
+                    />
+                    <span class="contact__input_error"
+                      >Este campo no es valido</span
+                    >
+                  </div>
+
+                  <div class="form__input">
+                    <label for="subject" class="contact__label">Asunto</label>
+                    <input
+                      type="text"
+                      class="contact__input"
+                      name="subject"
+                      id="subject"
+                      data-type="subject"
+                      placeholder="Asunto"
+                      required
+                    />
+                    <span class="contact__input_error"
+                      >Este campo no es valido</span
+                    >
+                  </div>
+                </div>
+
+                <div class="form__input">
+                  <label for="message" class="contact__label">Mensaje</label>
+                  <textarea
+                    name="message"
+                    class="contact__input text-message"
+                    id="message"
+                    data-type="message"
+                    rows="10"
+                    cols="50"
+                    placeholder="Su Mensaje"
+                    required
+                  ></textarea>
+                  <span class="contact__input_error"
+                    >Este campo no es valido</span
+                  >
+                </div>
+
+                <div class="form__input">
+                  <div id="recapID" class="g-recaptcha"></div>
+                </div>
+
+                <div class="contact__form_bottom">
+                  <input
+                    id="submit"
+                    class="contact__submit"
+                    type="submit"
+                    value="Enviar Mensaje"
+                    enabled
+                  />
+                </div>
+
+                <span class="contact__status"></span>
+              </form>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      
+      <footer class="site__footer">
+        <p class="footer__copy">Desarrollado por Marlon Rafael Martínez© | 2022</p>
+      </footer>
+    </div>
+    <script type="module" src="./assets/js/app.js"></script>
+    <script src="./assets/js/animations.js"></script>
+    <script src="./assets/js/form/form.js"></script>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+      defer
+    ></script>
+    <script>
+      window.onload = function () {
+        var el = document.getElementById('recapID');
+        if (el) {
+          el.setAttribute('required', 'required');
+        }
+      };
+      function onloadCallback() {
+        grecaptcha.render('recapID', {
+          sitekey: '6LfCynshAAAAALBoNNemh3NnEKqj4y8Esq5w28bp',
+          callback: successCallback,
+        });
+      }
+
+      var form = document.getElementById('contact__form');
+
+      async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById('contact__status');
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: 'application/json',
+          },
+        })
+          .then(response => {
+            if (response.ok) {
+              status.innerHTML = 'Thanks for your submission!';
+              form.reset();
+            } else {
+              response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                  status.innerHTML = data['errors']
+                    .map(error => error['message'])
+                    .join(', ');
+                } else {
+                  status.innerHTML =
+                    'Oops! There was a problem submitting your form';
+                }
+              });
+            }
+          })
+          .catch(error => {
+            status.innerHTML = 'Oops! There was a problem submitting your form';
+          });
+      }
+      form.addEventListener('submit', handleSubmit);
+    </script>
+  </body>
+</html>

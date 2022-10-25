@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    .about__description {
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 495px) {
+    .about__sign {
+      width: 100%;
+    }
+  }
+
+
+  
+  /* menu */
+  
+@media (max-width: 768px) {
+  .site__nav_button-container {
+    display: flex;
+  }
+
+  .nav__list {
+    position: absolute;
+    top: 0;
+    margin-top: 80px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #site__nav_toggle ~ .nav__list li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  #site__nav_toggle:checked ~ .nav__list li {
+    border: 1px solid var(--dark-gray);
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .nav__list > .nav__list_item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: var(--secondary-dark-gray);
+  }
+
+  .nav__list > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+
+
+
+/* contacto */
+@media (max-width: 768px) {
+  .contact__form_container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 495px) {
+  .contact__input {
+    width: 90%;
+  }
+}

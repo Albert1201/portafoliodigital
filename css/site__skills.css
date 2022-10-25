@@ -1,0 +1,8 @@
+.skills__title {
+  text-align: center;
+}
+
+.site__skills {
+  padding: 10rem 4rem;
+  background: var(--light-gray);
+}

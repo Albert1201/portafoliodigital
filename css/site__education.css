@@ -1,0 +1,94 @@
+
+.site__education {
+  padding: 10rem 4rem;
+  background-color: var(--light-gray);
+  margin-bottom: 12rem;
+}
+
+@media (max-width: 495px) {
+  .site__education {
+    padding: 5rem 2rem;
+  }
+}
+
+
+
+/* site educacion */
+.education__title {
+  text-align: center;
+}
+
+.eduaction__details {
+  width: 100%;
+}
+
+.education__list {
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.education__list_info {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.5em 0;
+  background-color: var(--light-gray);
+}
+
+.education__list_item {
+  width: 386px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: white;
+}
+
+.education__list_school {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 4rem 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.education__list_school:hover {
+  box-shadow: 10px -3px 20px -4px rgba(0, 0, 0, 0.36);
+}
+
+.school__course {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--main-dark-blue);
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.school__course_time {
+  letter-spacing: 0.1em;
+}
+
+.school__logo {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+@media (max-width: 649px) {
+  .education__list_item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 495px) {
+  .school__logo {
+    width: 100%;
+  }
+}

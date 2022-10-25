@@ -1,0 +1,39 @@
+
+
+.site__about {
+  padding: 10rem 4rem;
+}
+
+@media (max-width: 495px) {
+  .site__about {
+    padding: 5rem 2rem;
+  }
+}
+
+
+/* about contenido */
+.about__content {
+  width: 100%;
+}
+
+.about__description {
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  word-spacing: 0.1em;
+  width: 900px;
+}
+
+.about__description p {
+  margin-bottom: 1.5rem;
+  font-family: var(--roboto-font);
+}
+
+.about__sign {
+  margin-top: 3rem;
+  width: 250px;
+}
+
+.about__sign img {
+  width: inherit;
+}
